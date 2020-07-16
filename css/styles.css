@@ -1,0 +1,133 @@
+/************Element Selectors************/
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+h1 {
+  color: #66bfbf;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.5rem;
+  margin: 50px auto 0 auto;
+}
+h2 {
+  color: #66bfbf;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 15px;
+}
+h3 {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+span {
+  text-decoration: underline;
+}
+a {
+  color: #11999e;
+}
+hr {
+  border-color: #bac7a7;
+  border-style: dotted none none none;
+  border-width: 7px;
+  width: 5%;
+}
+p {
+  color: #40514e;
+}
+
+/************Class Selectors************/
+.top-container {
+  background-color: #e4f9f5;
+  padding-top: 100px;
+  position: relative;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 50px 30px 50px;
+}
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+.bottom-cloud {
+  bottom: 300px;
+  left: 250px;
+  position: absolute;
+}
+.normal-font {
+  font-size: 1rem;
+}
+.skills {
+  padding-top: 50px;
+}
+.skill-row {
+  line-height: 2;
+  margin: 70px auto;
+  margin-bottom: 80px;
+  text-align: left;
+  width: 55%;
+}
+.orion-intend {
+  padding-right: 40px;
+}
+.puzzle-intend {
+  padding-left: 50px;
+}
+.orion-img {
+  float: left;
+  margin: 8px 50px 12px 10px;
+  width: 15%;
+}
+.puzzle-img {
+  float: right;
+  margin: 8px 20px 8px 40px;
+  width: 15%;
+}
+.profile {
+  padding: 50px;
+  padding-top: 70px;
+}
+.about {
+  line-height: 2;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.contact-me {
+  padding: 40px;
+}
+.mail-me {
+  padding-top: 25px;
+}
+.contact-btn {
+  background-image: linear-gradient(#66bfbf, #11999e);
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 40px auto 60px auto;
+  text-decoration: none;
+}
+.contact-btn:hover {
+  background-image: linear-gradient(#11999e, #66bfbf);
+}
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 0 20px;
+  text-decoration: none;
+}
+.footer {
+  color: #EAF6F6;
+  margin-top: 40px;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+}
+
+/************Id Selectors************/
